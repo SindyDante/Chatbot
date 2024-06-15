@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask_chatbot
+  steps:
+  - intent: ask_chatbot
+  - action: utter_ask_how_can_i_help
+
+- story: inform_name
+  steps:
+  - intent: inform
+  - action: utter_ask_how_can_i_help
+
+- story: thankyou
+  steps:
+  - intent: thankyou
+  - action: utter_youre_welcome

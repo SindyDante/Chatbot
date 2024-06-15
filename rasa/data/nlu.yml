@@ -1,0 +1,37 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - catch you later
+
+- intent: ask_chatbot
+  examples: |
+    - Can you help me?
+    - I have a question
+    - I'd like to chat
+    - Can we talk?
+
+- intent: inform
+  examples: |
+    - My name is [John](name)
+    - I'm [Mary](name)
+    - Call me [Bob](name)
+
+- intent: thankyou
+  examples: |
+    - thank you
+    - thanks
+    - I appreciate it
+    - you're the best
